@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "PoddApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PoddApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PoddApp.Models.dll": {}
+        }
+      },
+      "PoddApp.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAccessLayer\\PoddApp.DataAccessLayer.csproj": "1.0.0",
+          "PoddApp.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PoddApp.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PoddApp.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PoddApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../PoddApp.Models/PoddApp.Models.csproj",
+      "msbuildProject": "../PoddApp.Models/PoddApp.Models.csproj"
+    },
+    "PoddApp.Services/1.0.0": {
+      "type": "project",
+      "path": "../PoddApp.Services/PoddApp.Services.csproj",
+      "msbuildProject": "../PoddApp.Services/PoddApp.Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "PoddApp.Models >= 1.0.0",
+      "PoddApp.Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\filip\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.UI\\PoddApp.UI.csproj",
+      "projectName": "PoddApp.UI",
+      "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.UI\\PoddApp.UI.csproj",
+      "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj": {
+              "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj"
+            },
+            "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Services\\PoddApp.Services.csproj": {
+              "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Services\\PoddApp.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAccessLayer\\PoddApp.DataAccessLayer.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAccessLayer\\PoddApp.DataAccessLayer.csproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}
