@@ -1,20 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/CkdelkwY8w=",
-  "success": false,
-  "projectFilePath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.UI\\PoddApp.UI.csproj",
+  "dgSpecHash": "M2rFahbBBb0=",
+  "success": true,
+  "projectFilePath": "C:\\github\\PoddRegister\\PoddApp.UI\\PoddApp.UI.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAccessLayer\\PoddApp.DataAccessLayer.csproj'. Check that the project reference is valid and that the project file exists.",
-      "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.UI\\PoddApp.UI.csproj",
-      "filePath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.UI\\PoddApp.UI.csproj",
-      "libraryId": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAccessLayer\\PoddApp.DataAccessLayer.csproj",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

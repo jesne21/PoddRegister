@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PoddApp.BusinessLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+322e127547f4d0779f3c2e6ca68fc591fa6f907b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e8acb4b799a1fa4526dab79049c13ad1c0657ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("PoddApp.BusinessLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PoddApp.BusinessLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PoddApp.DataAccessLayer\PoddApp.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\PoddApp.DataAcessLayer\PoddApp.DataAccessLayer.csproj" />
     <ProjectReference Include="..\PoddApp.Models\PoddApp.Models.csproj" />
   </ItemGroup>
 

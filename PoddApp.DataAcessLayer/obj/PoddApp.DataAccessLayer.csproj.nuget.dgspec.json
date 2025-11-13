@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj": {}
+    "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj": {
+    "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj",
         "projectName": "PoddApp.DataAccessLayer",
-        "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAcessLayer\\obj\\",
+        "projectPath": "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj": {
-                "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj"
+              "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj": {
+                "projectPath": "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj"
               }
             }
           }
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -65,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj": {
+    "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj",
+        "projectUniqueName": "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj",
         "projectName": "PoddApp.Models",
-        "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj",
-        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\obj\\",
+        "projectPath": "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\PoddRegister\\PoddApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,7 +105,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

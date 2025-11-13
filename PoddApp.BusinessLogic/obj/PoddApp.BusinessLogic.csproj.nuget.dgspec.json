@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.BusinessLogic\\PoddApp.BusinessLogic.csproj": {}
+    "C:\\github\\PoddRegister\\PoddApp.BusinessLogic\\PoddApp.BusinessLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.BusinessLogic\\PoddApp.BusinessLogic.csproj": {
+    "C:\\github\\PoddRegister\\PoddApp.BusinessLogic\\PoddApp.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.BusinessLogic\\PoddApp.BusinessLogic.csproj",
+        "projectUniqueName": "C:\\github\\PoddRegister\\PoddApp.BusinessLogic\\PoddApp.BusinessLogic.csproj",
         "projectName": "PoddApp.BusinessLogic",
-        "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.BusinessLogic\\PoddApp.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.BusinessLogic\\obj\\",
+        "projectPath": "C:\\github\\PoddRegister\\PoddApp.BusinessLogic\\PoddApp.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\PoddRegister\\PoddApp.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj": {
-                "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj"
+              "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj": {
+                "projectPath": "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj"
               },
-              "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Services\\PoddApp.Services.csproj": {
-                "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Services\\PoddApp.Services.csproj"
+              "C:\\github\\PoddRegister\\PoddApp.Services\\PoddApp.Services.csproj": {
+                "projectPath": "C:\\github\\PoddRegister\\PoddApp.Services\\PoddApp.Services.csproj"
               }
             }
           }
@@ -47,7 +47,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -68,21 +68,86 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj": {
+    "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj",
-        "projectName": "PoddApp.Models",
-        "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj",
-        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\obj\\",
+        "projectUniqueName": "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj",
+        "projectName": "PoddApp.DataAccessLayer",
+        "projectPath": "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj": {
+                "projectPath": "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj",
+        "projectName": "PoddApp.Models",
+        "projectPath": "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\PoddRegister\\PoddApp.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,7 +173,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -129,21 +194,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Services\\PoddApp.Services.csproj": {
+    "C:\\github\\PoddRegister\\PoddApp.Services\\PoddApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Services\\PoddApp.Services.csproj",
+        "projectUniqueName": "C:\\github\\PoddRegister\\PoddApp.Services\\PoddApp.Services.csproj",
         "projectName": "PoddApp.Services",
-        "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Services\\PoddApp.Services.csproj",
-        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Services\\obj\\",
+        "projectPath": "C:\\github\\PoddRegister\\PoddApp.Services\\PoddApp.Services.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\PoddRegister\\PoddApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -157,11 +222,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAccessLayer\\PoddApp.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.DataAccessLayer\\PoddApp.DataAccessLayer.csproj"
+              "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj": {
+                "projectPath": "C:\\github\\PoddRegister\\PoddApp.DataAcessLayer\\PoddApp.DataAccessLayer.csproj"
               },
-              "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj": {
-                "projectPath": "C:\\Users\\filip\\source\\repos\\PoddAppSolution\\PoddApp.Models\\PoddApp.Models.csproj"
+              "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj": {
+                "projectPath": "C:\\github\\PoddRegister\\PoddApp.Models\\PoddApp.Models.csproj"
               }
             }
           }
@@ -176,7 +241,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -197,7 +262,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
